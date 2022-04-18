@@ -1,8 +1,15 @@
-.hello {
-    color: red;
-    background-color: lightslategray;
-    background-image: url('./warning.png');
-    background-position: center;
-    background-repeat: no-repeat;
+@font-face {
+    font-family: 'Runaway';
+    src: url('./Runaway.otf');
+    font-weight: 600;
+    font-style: normal;
+}
 
+.hello {
+    color: white;
+    font-family: 'Runaway';
+    background-color: lightslategray;
+    background: url('./image.jpg');
+    text-align: right;
+    height: 100vh;
 }
