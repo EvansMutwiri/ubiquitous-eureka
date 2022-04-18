@@ -16,6 +16,12 @@ module.exports = {
                 // this order of loaders should be mantained
                 use: ['style-loader', 'css-loader'],
             },
+
+            // new rule for images
+            {
+                test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                type: 'asset/resource',
+            },
         ],
     },
 };
